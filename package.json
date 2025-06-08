@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/kseniia0503/frontend-project-44/issues"
   },
+  "type": "module",
   "homepage": "https://github.com/kseniia0503/frontend-project-44#readme"
 }
