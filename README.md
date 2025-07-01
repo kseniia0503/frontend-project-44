@@ -4,9 +4,14 @@
 
 Games:
 brain-even: ![alt text](screenshots/image-2.png)
+
 brain-calc: ![alt text](screenshots/image-3.png)
+
 brain-gcd: ![alt text](screenshots/image-4.png)
+
 brain-progression: ![alt text](screenshots/image-5.png)
+
 brain-prime: ![alt text](screenshots/image-6.png)
+
 
 
