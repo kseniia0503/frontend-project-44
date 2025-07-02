@@ -1,4 +1,4 @@
-const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
+import { getRandomNumber } from '../src/random.js'
 
 function generateProgression(start, step, length) {
   return Array.from({ length }, (_, i) => start + i * step)

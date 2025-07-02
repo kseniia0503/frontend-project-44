@@ -13,5 +13,12 @@ brain-progression: ![alt text](screenshots/image-5.png)
 
 brain-prime: ![alt text](screenshots/image-6.png)
 
+Play games with Makefile:
+make play-even     
+make play-calc    
+make play-gsd
+make play-gprogression
+make play-prime
+
 
 

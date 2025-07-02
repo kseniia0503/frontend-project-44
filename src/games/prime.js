@@ -1,4 +1,4 @@
-const getRandomNumber = (min = 1, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min
+import { getRandomNumber } from '../src/random.js'
 
 const isPrime = (num) => {
   if (num < 2) return false
