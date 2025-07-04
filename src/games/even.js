@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../src/random.js'
+import { getRandomNumber } from '../random.js'
 export const rules = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 export const generateRound = () => {

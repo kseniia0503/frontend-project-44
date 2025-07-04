@@ -15,16 +15,16 @@ lint:
 .PHONY: play-even play-calc play-gcd play-prime play-progression
 
 play-even:
-	bin/brain-even.js
+	node bin/brain-even.js
 
 play-calc:
-	bin/brain-calc.js
+	node bin/brain-calc.js
 
 play-gcd:
-	bin/brain-gcd.js
+	node bin/brain-gcd.js
 
 play-prime:
-	bin/brain-prime.js
+	node bin/brain-prime.js
 
 play-progression:
-	bin/brain-progression.js
+	node bin/brain-progression.js

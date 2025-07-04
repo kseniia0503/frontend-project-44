@@ -1,10 +1,12 @@
+import { getRandomNumber } from '../random.js'
+
 const getRandomOperator = () => ['+', '-', '*'][Math.floor(Math.random() * 3)]
 
 export const rules = 'What is the result of the expression?'
 
 export const generateRound = () => {
-  const a = Math.floor(Math.random() * 100)
-  const b = Math.floor(Math.random() * 100)
+  const a = getRandomNumber(1, 100)
+  const b = getRandomNumber(1, 100)
   const operator = getRandomOperator()
 
   let answer

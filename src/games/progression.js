@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../src/random.js'
+import { getRandomNumber } from '../random.js'
 
 function generateProgression(start, step, length) {
   return Array.from({ length }, (_, i) => start + i * step)

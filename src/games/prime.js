@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../src/random.js'
+import { getRandomNumber } from '../random.js'
 
 const isPrime = (num) => {
   if (num < 2) return false
@@ -11,7 +11,7 @@ const isPrime = (num) => {
 export const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 export const generateRound = () => {
-  const number = getRandomNumber()
+  const number = getRandomNumber(1, 100)
   const answer = isPrime(number) ? 'yes' : 'no'
   return [String(number), answer]
 }
